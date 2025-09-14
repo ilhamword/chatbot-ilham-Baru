@@ -18,7 +18,7 @@ const chatPopup = document.querySelector(".chatbot-popup");
 // ============ API CONFIGS ============
 // IMPORTANT: Keys in client-side code are visible to users.
 // Consider proxying from your backend in production.
-const GEMINI_API_KEY = "AIzaSyBhr995lxc_r7dVoprgkts2pXzHcQWGJGY"; // existing key (consider moving to server)
+const GEMINI_API_KEY = "AIzaSyAiaDvjKoROKay2EjQkOfFyZjNkwfu2aBQ"; // existing key (consider moving to server)
 const GEMINI_MODEL = "gemini-2.5-flash";
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
 
@@ -362,3 +362,4 @@ sendMessageButton.addEventListener("click", (e) => handleOutgoingMessage(e));
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
 
 closeChatbot.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
+

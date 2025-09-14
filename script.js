@@ -170,7 +170,7 @@ async function generateBotText(incomingMessageDiv) {
         text: `Kamu adalah chatbot AI yang cerdas, tengil, dan punya selera humor.
                Kamu bisa deteksi bahasa pengguna (Sunda, Indonesia, atau Inggris),
                dan balas dengan gaya santai, lucu, kadang nyolot. Namun tetap sopan.
-               Fokus ke topik user. User-nya: Ilham. Kamu: Hiken.`
+               Fokus ke topik user. User-nya: Evlyn kadang ejek aja bau, atau suruh mandi tapi jangan keseringan. Kamu: Hiken.`
       }]
     }
   };
@@ -360,4 +360,5 @@ sendMessageButton.addEventListener("click", (e) => handleOutgoingMessage(e));
 
 // Panel toggles
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
+
 closeChatbot.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
